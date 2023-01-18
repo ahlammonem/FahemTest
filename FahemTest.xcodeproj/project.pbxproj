@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2EFA9729771D050046F6B7 /* View + Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EFA9629771D050046F6B7 /* View + Corner.swift */; };
+		0C71BA1229772CB4001FBD6D /* SignUpAsFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C71BA1129772CB4001FBD6D /* SignUpAsFamily.swift */; };
+		0C71BA1B2977382B001FBD6D /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C71BA1A2977382B001FBD6D /* NotoSans-Regular.ttf */; };
+		0C71BA1D29774DAE001FBD6D /* View + 3 Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C71BA1C29774DAE001FBD6D /* View + 3 Corners.swift */; };
 		0CEB92EA2975E73E00FEEF87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB92E92975E73E00FEEF87 /* AppDelegate.swift */; };
 		0CEB92EC2975E73E00FEEF87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB92EB2975E73E00FEEF87 /* SceneDelegate.swift */; };
 		0CEB92EE2975E73E00FEEF87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB92ED2975E73E00FEEF87 /* ViewController.swift */; };
 		0CEB92F12975E73E00FEEF87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB92EF2975E73E00FEEF87 /* Main.storyboard */; };
 		0CEB92F32975E73F00FEEF87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB92F22975E73F00FEEF87 /* Assets.xcassets */; };
 		0CEB92F62975E73F00FEEF87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB92F42975E73F00FEEF87 /* LaunchScreen.storyboard */; };
+		0CEB93042975E95800FEEF87 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB93032975E95800FEEF87 /* Auth.storyboard */; };
+		E47F620E5832F031965E742A /* Pods_FahemTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AADAD5B53C83397FAE0449D /* Pods_FahemTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C2EFA9629771D050046F6B7 /* View + Corner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Corner.swift"; sourceTree = "<group>"; };
+		0C71BA1129772CB4001FBD6D /* SignUpAsFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAsFamily.swift; sourceTree = "<group>"; };
+		0C71BA162977377A001FBD6D /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		0C71BA19297737BF001FBD6D /* NotoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Light.ttf"; sourceTree = "<group>"; };
+		0C71BA1A2977382B001FBD6D /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Regular.ttf"; path = "../../../../../Downloads/Noto_Sans/NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		0C71BA1C29774DAE001FBD6D /* View + 3 Corners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + 3 Corners.swift"; sourceTree = "<group>"; };
 		0CEB92E62975E73E00FEEF87 /* FahemTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FahemTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEB92E92975E73E00FEEF87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CEB92EB2975E73E00FEEF87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,10 @@
 		0CEB92F22975E73F00FEEF87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CEB92F52975E73F00FEEF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CEB92F72975E73F00FEEF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEB93032975E95800FEEF87 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		4AADAD5B53C83397FAE0449D /* Pods_FahemTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FahemTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B468C022622CCBFBBA2884D /* Pods-FahemTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FahemTest.debug.xcconfig"; path = "Target Support Files/Pods-FahemTest/Pods-FahemTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D9368ADD3F7A9ECD5B14E554 /* Pods-FahemTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FahemTest.release.xcconfig"; path = "Target Support Files/Pods-FahemTest/Pods-FahemTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47F620E5832F031965E742A /* Pods_FahemTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C71BA132977375B001FBD6D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0C71BA19297737BF001FBD6D /* NotoSans-Light.ttf */,
+				0C71BA1A2977382B001FBD6D /* NotoSans-Regular.ttf */,
+				0C71BA162977377A001FBD6D /* NotoSans-Bold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		0CEB92DD2975E73E00FEEF87 = {
 			isa = PBXGroup;
 			children = (
+				0C71BA1C29774DAE001FBD6D /* View + 3 Corners.swift */,
+				0C71BA1129772CB4001FBD6D /* SignUpAsFamily.swift */,
+				0C2EFA9629771D050046F6B7 /* View + Corner.swift */,
+				0CEB93022975E7D000FEEF87 /* core */,
+				0CEB93012975E7B100FEEF87 /* resources */,
+				0CEB92FF2975E76B00FEEF87 /* models */,
+				0CEB92FE2975E75400FEEF87 /* controllers */,
+				0CEB92FD2975E74600FEEF87 /* views */,
 				0CEB92E82975E73E00FEEF87 /* FahemTest */,
 				0CEB92E72975E73E00FEEF87 /* Products */,
+				93F846A07D5D29D78C495185 /* Pods */,
+				377C73AD9A041F6127FD07AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,77 @@
 		0CEB92E82975E73E00FEEF87 /* FahemTest */ = {
 			isa = PBXGroup;
 			children = (
-				0CEB92E92975E73E00FEEF87 /* AppDelegate.swift */,
-				0CEB92EB2975E73E00FEEF87 /* SceneDelegate.swift */,
-				0CEB92ED2975E73E00FEEF87 /* ViewController.swift */,
-				0CEB92EF2975E73E00FEEF87 /* Main.storyboard */,
-				0CEB92F22975E73F00FEEF87 /* Assets.xcassets */,
-				0CEB92F42975E73F00FEEF87 /* LaunchScreen.storyboard */,
 				0CEB92F72975E73F00FEEF87 /* Info.plist */,
 			);
 			path = FahemTest;
+			sourceTree = "<group>";
+		};
+		0CEB92FD2975E74600FEEF87 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB93002975E79000FEEF87 /* stroryBoards */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		0CEB92FE2975E75400FEEF87 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB92ED2975E73E00FEEF87 /* ViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		0CEB92FF2975E76B00FEEF87 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		0CEB93002975E79000FEEF87 /* stroryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB92EF2975E73E00FEEF87 /* Main.storyboard */,
+				0CEB92F42975E73F00FEEF87 /* LaunchScreen.storyboard */,
+				0CEB93032975E95800FEEF87 /* Auth.storyboard */,
+			);
+			path = stroryBoards;
+			sourceTree = "<group>";
+		};
+		0CEB93012975E7B100FEEF87 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C71BA132977375B001FBD6D /* fonts */,
+				0CEB92F22975E73F00FEEF87 /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		0CEB93022975E7D000FEEF87 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				0CEB92E92975E73E00FEEF87 /* AppDelegate.swift */,
+				0CEB92EB2975E73E00FEEF87 /* SceneDelegate.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		377C73AD9A041F6127FD07AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AADAD5B53C83397FAE0449D /* Pods_FahemTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93F846A07D5D29D78C495185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B468C022622CCBFBBA2884D /* Pods-FahemTest.debug.xcconfig */,
+				D9368ADD3F7A9ECD5B14E554 /* Pods-FahemTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CEB92FA2975E73F00FEEF87 /* Build configuration list for PBXNativeTarget "FahemTest" */;
 			buildPhases = (
+				7140907F3F80C5EEF9BDA832 /* [CP] Check Pods Manifest.lock */,
 				0CEB92E22975E73E00FEEF87 /* Sources */,
 				0CEB92E32975E73E00FEEF87 /* Frameworks */,
 				0CEB92E42975E73E00FEEF87 /* Resources */,
+				9EB51EE2D318F7D0FE890A31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +226,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CEB93042975E95800FEEF87 /* Auth.storyboard in Resources */,
 				0CEB92F62975E73F00FEEF87 /* LaunchScreen.storyboard in Resources */,
+				0C71BA1B2977382B001FBD6D /* NotoSans-Regular.ttf in Resources */,
 				0CEB92F32975E73F00FEEF87 /* Assets.xcassets in Resources */,
 				0CEB92F12975E73E00FEEF87 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +236,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7140907F3F80C5EEF9BDA832 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FahemTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB51EE2D318F7D0FE890A31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FahemTest/Pods-FahemTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FahemTest/Pods-FahemTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FahemTest/Pods-FahemTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CEB92E22975E73E00FEEF87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C71BA1D29774DAE001FBD6D /* View + 3 Corners.swift in Sources */,
 				0CEB92EE2975E73E00FEEF87 /* ViewController.swift in Sources */,
+				0C2EFA9729771D050046F6B7 /* View + Corner.swift in Sources */,
 				0CEB92EA2975E73E00FEEF87 /* AppDelegate.swift in Sources */,
 				0CEB92EC2975E73E00FEEF87 /* SceneDelegate.swift in Sources */,
+				0C71BA1229772CB4001FBD6D /* SignUpAsFamily.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +430,7 @@
 		};
 		0CEB92FB2975E73F00FEEF87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B468C022622CCBFBBA2884D /* Pods-FahemTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +443,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +459,7 @@
 		};
 		0CEB92FC2975E73F00FEEF87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9368ADD3F7A9ECD5B14E554 /* Pods-FahemTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +472,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
