@@ -17,8 +17,8 @@ class ViewController: UIViewController {
 
     @IBAction func btnClicked(_ sender: Any) {
         
-        let authStoryBoard = UIStoryboard(name: "Auth", bundle: nil)
-        let signUpVC = authStoryBoard.instantiateViewController(withIdentifier: "signUpVC")
+        let authStoryBoard = UIStoryboard(name: "OnBoarding", bundle: nil)
+        let signUpVC = authStoryBoard.instantiateViewController(withIdentifier: "OnBoardingVC")
         present(signUpVC, animated: false)
     }
 }

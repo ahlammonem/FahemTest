@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSans-Medium.ttf">
+            <string>NotoSans-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnBoardingCell" id="gTV-IL-0wX" customClass="OnBoardingCell" customModule="FahemTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="556"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="556"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8u-yw-RZ5">
+                        <rect key="frame" x="282.5" y="16" width="55.5" height="36"/>
+                        <color key="tintColor" name="green"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Skip">
+                            <fontDescription key="titleFontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="16"/>
+                        </buttonConfiguration>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding1" translatesAutoresizingMaskIntoConstraints="NO" id="P3u-Rp-U9M">
+                        <rect key="frame" x="16" y="84" width="322" height="250"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keep informed of core Keys of self-growth by shaheen Artificial Intelligence reports" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="WLs-K1-gkM">
+                        <rect key="frame" x="24" y="366" width="306" height="82"/>
+                        <fontDescription key="fontDescription" name="NotoSans-Medium" family="Noto Sans" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbn-ar-N4Y" customClass="UIButtonCorner" customModule="FahemTest" customModuleProvider="target">
+                        <rect key="frame" x="16" y="487.5" width="322" height="44.5"/>
+                        <color key="backgroundColor" name="green"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Next">
+                            <fontDescription key="titleFontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="20"/>
+                        </buttonConfiguration>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="WLs-K1-gkM" firstAttribute="top" secondItem="P3u-Rp-U9M" secondAttribute="bottom" constant="32" id="37H-pK-nmh"/>
+                <constraint firstItem="P3u-Rp-U9M" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="9Lj-NQ-VFU"/>
+                <constraint firstItem="dbn-ar-N4Y" firstAttribute="top" relation="greaterThanOrEqual" secondItem="WLs-K1-gkM" secondAttribute="bottom" constant="8" id="AbO-Qe-J11"/>
+                <constraint firstAttribute="trailing" secondItem="WLs-K1-gkM" secondAttribute="trailing" constant="24" id="JaD-hO-n8c"/>
+                <constraint firstAttribute="trailing" secondItem="m8u-yw-RZ5" secondAttribute="trailing" constant="16" id="Jdn-8d-SLN"/>
+                <constraint firstItem="P3u-Rp-U9M" firstAttribute="top" secondItem="m8u-yw-RZ5" secondAttribute="bottom" constant="32" id="O9I-Yz-3Ii"/>
+                <constraint firstAttribute="trailing" secondItem="P3u-Rp-U9M" secondAttribute="trailing" constant="16" id="Q8m-sa-DeR"/>
+                <constraint firstItem="P3u-Rp-U9M" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.45" id="UCX-XA-fHZ"/>
+                <constraint firstItem="WLs-K1-gkM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="24" id="Wad-yY-5Eh"/>
+                <constraint firstItem="m8u-yw-RZ5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="16" id="XZL-h2-1Sj"/>
+                <constraint firstAttribute="bottom" secondItem="dbn-ar-N4Y" secondAttribute="bottom" constant="24" id="a7w-Fr-1J0"/>
+                <constraint firstAttribute="trailing" secondItem="dbn-ar-N4Y" secondAttribute="trailing" constant="16" id="aci-tD-FCX"/>
+                <constraint firstItem="dbn-ar-N4Y" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.08" id="kOf-pL-MPd"/>
+                <constraint firstItem="dbn-ar-N4Y" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="wKW-Av-xGI"/>
+            </constraints>
+            <size key="customSize" width="354" height="556"/>
+            <connections>
+                <outlet property="nextBtn" destination="dbn-ar-N4Y" id="eOs-Hm-kls"/>
+                <outlet property="onBoardingImg" destination="P3u-Rp-U9M" id="ywL-e0-RYA"/>
+                <outlet property="onBoardingLbl" destination="WLs-K1-gkM" id="XrF-VX-XZa"/>
+                <outlet property="skipBtn" destination="m8u-yw-RZ5" id="s0e-1N-VbS"/>
+            </connections>
+            <point key="canvasLocation" x="-86.25" y="43.309859154929576"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="onboarding1" width="343" height="325"/>
+        <namedColor name="green">
+            <color red="0.30196078431372547" green="0.77254901960784317" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--On BoardingVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="OnBoardingVC" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="OnBoardingVC" customModule="FahemTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="BjZ-pF-pKy">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HfA-ro-Cb0">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="6Nu-Fl-goH">
+                                <rect key="frame" x="138.66666666666666" y="668" width="116" height="26"/>
+                                <color key="pageIndicatorTintColor" name="lightGray"/>
+                                <color key="currentPageIndicatorTintColor" name="green"/>
+                            </pageControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BjZ-pF-pKy" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="9Fi-W1-y1s"/>
+                            <constraint firstItem="BjZ-pF-pKy" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="T0e-GV-coy"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="BjZ-pF-pKy" secondAttribute="trailing" id="Xq7-b0-iBM"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="BjZ-pF-pKy" secondAttribute="bottom" id="aw2-0X-pvR"/>
+                            <constraint firstItem="6Nu-Fl-goH" firstAttribute="top" secondItem="BjZ-pF-pKy" secondAttribute="bottom" constant="-150" id="dOA-eh-IkE"/>
+                            <constraint firstItem="6Nu-Fl-goH" firstAttribute="centerX" secondItem="BjZ-pF-pKy" secondAttribute="centerX" id="kZ1-ck-QCI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="onBoardingCollection" destination="BjZ-pF-pKy" id="4LJ-OL-raQ"/>
+                        <outlet property="pageControl" destination="6Nu-Fl-goH" id="1FY-Y7-spp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="green">
+            <color red="0.30196078431372547" green="0.77254901960784317" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="lightGray">
+            <color red="0.78431372549019607" green="0.76470588235294112" blue="0.76470588235294112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

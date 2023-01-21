@@ -1,8 +1,8 @@
 //
-//  View + 3 Corners.swift
+//  Button + Corner.swift
 //  FahemTest
 //
-//  Created by ahlam on 17/01/2023.
+//  Created by ahlam on 21/01/2023.
 //
 
 import Foundation
@@ -16,7 +16,7 @@ import Foundation
 
 import UIKit
 
-class ViewWithThreeCorners : UIView {
+class UIButtonCorner : UIButton {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -30,7 +30,6 @@ class ViewWithThreeCorners : UIView {
     }
     
     func addCorner (){
-      
         self.layer.cornerRadius = 8
     }
 
