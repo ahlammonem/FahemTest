@@ -9,5 +9,6 @@ target 'FahemTest' do
 use_frameworks!
 pod 'TextFieldEffects'
 pod 'SkyFloatingLabelTextField', '~> 3.0'
+pod 'AEOTPTextField'
 
 end

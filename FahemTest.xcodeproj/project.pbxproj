@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0C1726CD297C8A9400D1EB3E /* SignUpAsFamilyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1726CC297C8A9400D1EB3E /* SignUpAsFamilyVC.swift */; };
 		0C2EFA9729771D050046F6B7 /* View + Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EFA9629771D050046F6B7 /* View + Corner.swift */; };
-		0C71BA1B2977382B001FBD6D /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C71BA1A2977382B001FBD6D /* NotoSans-Regular.ttf */; };
 		0C71BA1D29774DAE001FBD6D /* View + bottom Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C71BA1C29774DAE001FBD6D /* View + bottom Corners.swift */; };
 		0CC27FF4297BFB1900E116DC /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC27FF3297BFB1900E116DC /* OnBoarding.storyboard */; };
 		0CC27FF6297BFB5F00E116DC /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC27FF5297BFB5F00E116DC /* OnBoardingVC.swift */; };
@@ -24,6 +23,9 @@
 		0CEB92F32975E73F00FEEF87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB92F22975E73F00FEEF87 /* Assets.xcassets */; };
 		0CEB92F62975E73F00FEEF87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB92F42975E73F00FEEF87 /* LaunchScreen.storyboard */; };
 		0CEB93042975E95800FEEF87 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEB93032975E95800FEEF87 /* Auth.storyboard */; };
+		3E16E2BB297D41150057D4FC /* NumberOfChildrenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16E2BA297D41150057D4FC /* NumberOfChildrenVC.swift */; };
+		3E16E2BD297D41550057D4FC /* VerificationCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16E2BC297D41550057D4FC /* VerificationCodeVC.swift */; };
+		3E16E2C0297D42BF0057D4FC /* ChildrenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16E2BF297D42BF0057D4FC /* ChildrenCell.swift */; };
 		E47F620E5832F031965E742A /* Pods_FahemTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AADAD5B53C83397FAE0449D /* Pods_FahemTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +34,6 @@
 		0C2EFA9629771D050046F6B7 /* View + Corner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Corner.swift"; sourceTree = "<group>"; };
 		0C71BA162977377A001FBD6D /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		0C71BA19297737BF001FBD6D /* NotoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Light.ttf"; sourceTree = "<group>"; };
-		0C71BA1A2977382B001FBD6D /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSans-Regular.ttf"; path = "../../../../../Downloads/Noto_Sans/NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		0C71BA1C29774DAE001FBD6D /* View + bottom Corners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + bottom Corners.swift"; sourceTree = "<group>"; };
 		0CB6AE60297C53B300C2A40D /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
 		0CC27FF3297BFB1900E116DC /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
@@ -50,6 +51,9 @@
 		0CEB92F52975E73F00FEEF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CEB92F72975E73F00FEEF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CEB93032975E95800FEEF87 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		3E16E2BA297D41150057D4FC /* NumberOfChildrenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfChildrenVC.swift; sourceTree = "<group>"; };
+		3E16E2BC297D41550057D4FC /* VerificationCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeVC.swift; sourceTree = "<group>"; };
+		3E16E2BF297D42BF0057D4FC /* ChildrenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenCell.swift; sourceTree = "<group>"; };
 		4AADAD5B53C83397FAE0449D /* Pods_FahemTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FahemTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B468C022622CCBFBBA2884D /* Pods-FahemTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FahemTest.debug.xcconfig"; path = "Target Support Files/Pods-FahemTest/Pods-FahemTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D9368ADD3F7A9ECD5B14E554 /* Pods-FahemTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FahemTest.release.xcconfig"; path = "Target Support Files/Pods-FahemTest/Pods-FahemTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				0C71BA19297737BF001FBD6D /* NotoSans-Light.ttf */,
-				0C71BA1A2977382B001FBD6D /* NotoSans-Regular.ttf */,
 				0CB6AE60297C53B300C2A40D /* NotoSans-Medium.ttf */,
 				0C71BA162977377A001FBD6D /* NotoSans-Bold.ttf */,
 			);
@@ -89,7 +92,8 @@
 		0CC27FFC297BFD1200E116DC /* cellsControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0CC27FF8297BFD0700E116DC /* OnBoardingCell.swift */,
+				3E16E2BE297D42870057D4FC /* Auth */,
+				3E16E2B9297D40D00057D4FC /* onboarding */,
 			);
 			path = cellsControllers;
 			sourceTree = "<group>";
@@ -148,11 +152,10 @@
 		0CEB92FE2975E75400FEEF87 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3E16E2B8297D40AE0057D4FC /* onboarding */,
+				3E16E2B7297D40A00057D4FC /* Auth */,
 				0CC27FFC297BFD1200E116DC /* cellsControllers */,
 				0CEB92ED2975E73E00FEEF87 /* ViewController.swift */,
-				0CC27FF5297BFB5F00E116DC /* OnBoardingVC.swift */,
-				0CD91026297C81C8006A187C /* SignUpAsVC.swift */,
-				0C1726CC297C8A9400D1EB3E /* SignUpAsFamilyVC.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -199,6 +202,41 @@
 				4AADAD5B53C83397FAE0449D /* Pods_FahemTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E16E2B7297D40A00057D4FC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0C1726CC297C8A9400D1EB3E /* SignUpAsFamilyVC.swift */,
+				0CD91026297C81C8006A187C /* SignUpAsVC.swift */,
+				3E16E2BA297D41150057D4FC /* NumberOfChildrenVC.swift */,
+				3E16E2BC297D41550057D4FC /* VerificationCodeVC.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3E16E2B8297D40AE0057D4FC /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0CC27FF5297BFB5F00E116DC /* OnBoardingVC.swift */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		3E16E2B9297D40D00057D4FC /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0CC27FF8297BFD0700E116DC /* OnBoardingCell.swift */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		3E16E2BE297D42870057D4FC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3E16E2BF297D42BF0057D4FC /* ChildrenCell.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		93F846A07D5D29D78C495185 /* Pods */ = {
@@ -273,7 +311,6 @@
 				0CEB93042975E95800FEEF87 /* Auth.storyboard in Resources */,
 				0CEB92F62975E73F00FEEF87 /* LaunchScreen.storyboard in Resources */,
 				0CC27FFB297BFD0700E116DC /* OnBoardingCell.xib in Resources */,
-				0C71BA1B2977382B001FBD6D /* NotoSans-Regular.ttf in Resources */,
 				0CEB92F32975E73F00FEEF87 /* Assets.xcassets in Resources */,
 				0CEB92F12975E73E00FEEF87 /* Main.storyboard in Resources */,
 				0CC27FF4297BFB1900E116DC /* OnBoarding.storyboard in Resources */,
@@ -336,8 +373,11 @@
 				0CEB92EE2975E73E00FEEF87 /* ViewController.swift in Sources */,
 				0C2EFA9729771D050046F6B7 /* View + Corner.swift in Sources */,
 				0CEB92EA2975E73E00FEEF87 /* AppDelegate.swift in Sources */,
+				3E16E2C0297D42BF0057D4FC /* ChildrenCell.swift in Sources */,
 				0CEB92EC2975E73E00FEEF87 /* SceneDelegate.swift in Sources */,
 				0C1726CD297C8A9400D1EB3E /* SignUpAsFamilyVC.swift in Sources */,
+				3E16E2BB297D41150057D4FC /* NumberOfChildrenVC.swift in Sources */,
+				3E16E2BD297D41550057D4FC /* VerificationCodeVC.swift in Sources */,
 				0CC27FFE297C014900E116DC /* Button + Corner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

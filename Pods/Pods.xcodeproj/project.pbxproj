@@ -7,39 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07F42B721E91C3B1B77784D1C667C057 /* Pods-FahemTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E08793242D6DB4938D17C876A91FB4A /* Pods-FahemTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10CC0DED42AC8D413BCA321D4A72C415 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759567EDA785FBEBC041D7DF8449A195 /* UITextField+fixCaretPosition.swift */; };
-		20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E1D3C7D5C3A47BF00F0646A8B918F /* MinoruTextField.swift */; };
-		326E51DD1E7BEF1CDFA1E6CCF8B4D133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C6416A43B72FFF791F1F6B30BD94A /* TextFieldEffects.swift */; };
-		3F382618063FE40A205947DCBF27959C /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD4AE7CF524008D99C4E5E18C1780AA /* SkyFloatingLabelTextField-dummy.m */; };
-		4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 854B19C7D1309AAEF8B0C2FAE061FFDE /* TextFieldEffects-dummy.m */; };
-		86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9C1EFFBCCD57A40F6D520D08A25197 /* JiroTextField.swift */; };
-		95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938E8E1C69DDD94918FD5F5DD8F1273 /* AkiraTextField.swift */; };
-		96E1DAD98B2084B41C8A8C9ADA5D3FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851D9C69BF15812DF9C9AA526D8CCCE6 /* YokoTextField.swift */; };
-		A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730E0BA5DDE6B8417E26F971D9CEA939 /* HoshiTextField.swift */; };
-		AB3A84A42F481532C25BD8CD150C22B7 /* Pods-FahemTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3086566F1AE4C2224D4B146C7045B5 /* Pods-FahemTest-dummy.m */; };
-		AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ADB352B137011D34DD23CEBA86CCBC /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B09FEC0B831B6F4E6D415077BF437A2A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DA6F41BC52809B8BC518C973FF58A /* SkyFloatingLabelTextField.swift */; };
-		B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB1439536E3FA65E68932456D4556C /* KaedeTextField.swift */; };
-		D6560C23E0F6A5F13CE2F4C2A3774A73 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8B6CDC0B1171A57174B9A866C99E61 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17681E926E2FF286E4E481D27C2E5CF /* MadokaTextField.swift */; };
-		E110213DFAE0A86C3A09C397C3BCD89B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B49F8AB4D83B5C80D831D57B302E26 /* YoshikoTextField.swift */; };
-		EE63B846EDD498D4335668FFD70F3F25 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB903A0F6924D31F0D1EBD5D1FF3413 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F9189845D10FBAFF1EC4B1E598ECE /* IsaoTextField.swift */; };
+		0C9DD5C93FCDB00E02B6AF2FD05FB067 /* AEOTPTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B33C5BC2CC0C0AA8DA65B1CAA6524F /* AEOTPTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E83CEF0477F83DE04CE7D57D86060D6 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F77B7462B46B0ECECE7169975014697 /* YoshikoTextField.swift */; };
+		14958A2E86F25B27E4151EAE7E8FF577 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100A3679223EAB7950FC1AAFA4154AF /* JiroTextField.swift */; };
+		2D126CA6C0C88B5386439C5CE230AAC3 /* AEOTPTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409BB0AAF9E199AAC0557B4AD47D4D4F /* AEOTPTextFieldDelegate.swift */; };
+		313DB33B4A0AE384BDF05CA00E1F3C1B /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90645F3BE116D7A9F82B520073E8258 /* IsaoTextField.swift */; };
+		33E601C59F76719BF5284E739471AD16 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A283BA7E0CCEF834A6D826C4C9E2BC6 /* AkiraTextField.swift */; };
+		347952D8B8CB66F36B204DF2357A5518 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68A58A2CDFCCB8748BC4DA761F4854 /* TextFieldEffects.swift */; };
+		3836734EBA12313D73A6728A263E9461 /* View+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8F26BEF8D1B82ECAC9FFA6C1606107 /* View+Helpers.swift */; };
+		3E4258D4401E6044D94C9FA3BF2A1AC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C780EDE643544353116C661CC8BFF11 /* Pods-FahemTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E08793242D6DB4938D17C876A91FB4A /* Pods-FahemTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56CA8D0F87EF8ED8A716CB4F68AC575F /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F3D5D27AC67939BBBA2CB55D2AFC2E /* KaedeTextField.swift */; };
+		5ABF5005394286424D09C497637250A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		69C454BB3248AF5B39142B95250D1C6A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB681EC43E604171574CA8F77EF8BA /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		730B39307565D753836E1A2A3E64F451 /* AEOTPViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE067DCD6EEBAB13F317E72C75C6B8F4 /* AEOTPViewRepresentable.swift */; };
+		769B94015DB6EDAEDBE3E150F5342E48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		76FC262F88C5C4ECC416CC8E98691653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B3FDEEB2A92B5308E864A17E434148C /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD6850D9BC95CD48B61C8064E6BCBB /* MadokaTextField.swift */; };
+		874B3B9A90C1E413FDCC96C91AC63902 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E5BFF21726595CFE432A5D857410FA /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		878035B27CC6F4ADFB8E5393164F0002 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3ADCB4305CEF8E7DDC3D7BBD1EE420 /* SkyFloatingLabelTextField-dummy.m */; };
+		91EEC8FACD42A2D4D6BF025F05D091FF /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F82B2FA0521C7C607A49C142557DF009 /* TextFieldEffects-dummy.m */; };
+		9735565074627CE031308408B8C86112 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC437ED02C009C91F7130DF7A0FC65 /* HoshiTextField.swift */; };
+		B06F7E568365D21AE6E6712469A7DDC9 /* AEOTPTextFieldSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC4F15354560B45CDA8DE4557E47BC0 /* AEOTPTextFieldSwiftUI.swift */; };
+		B373B6DE977C39AC68DC4898FA9A1579 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDD4AE28216CA7D7139590DEB20996 /* YokoTextField.swift */; };
+		BA897B2A31AB27D30F0B08B1F32D4F63 /* AEOTPTextFieldImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F600B04697AB739286E405B3BD73D /* AEOTPTextFieldImplementation.swift */; };
+		BAA2592986D3F1B374EBABACC8380656 /* AEOTPTextFieldImplementationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29FE18F5C013ADD825466ED5401B97 /* AEOTPTextFieldImplementationProtocol.swift */; };
+		CE6342C90C2F428090D9A20E60FCE0C9 /* AEOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D801D90F94A8F2F33AACA663A96F527 /* AEOTPView.swift */; };
+		D07C41CADECBB3C16108C338B470E889 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2866B351C1DDBC0DCD3335970EE4DD /* MinoruTextField.swift */; };
+		D775D3417D9B5B61DC934A26B0BE2A11 /* AEOTPTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6740E4561B5F2ACA14C9729854368A6F /* AEOTPTextField-dummy.m */; };
+		DD10180CF3885A7571FDA8E7D045069B /* Pods-FahemTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3086566F1AE4C2224D4B146C7045B5 /* Pods-FahemTest-dummy.m */; };
+		E227B76CCBCD02A40F363B8858034786 /* AEOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432A261C782770389F37F7EE3409C01 /* AEOTPTextField.swift */; };
+		E2ABE924B2D77383C50E0BAD47F1A2CE /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1E239B47C263B28318D3CA1238322 /* UITextField+fixCaretPosition.swift */; };
+		EC5246CB6C26D6680D741F077F20F0DE /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D05AFF48CDC12930CF259DD20673DF82 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF188EC048AF7BB0EC67B7E36A84F36A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2126EF64963EDC086B8E2000A198B /* SkyFloatingLabelTextField.swift */; };
+		F2DADF5CEE8E52302CD0FED93578C969 /* ChangeObserverModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA51BC98DB00267E67667C56718A2A /* ChangeObserverModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A001837C1B7CC26C4E8510D9D398AA67 /* PBXContainerItemProxy */ = {
+		07071E28A0F716BB13C587D62BE90AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843B748963255A8FEFEA42D08A2E7996;
+			remoteInfo = AEOTPTextField;
+		};
+		6023B1080D8F433B486C1DA37C42E343 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D09BAB8A20917611A8AD17E2E0EE8271;
 			remoteInfo = TextFieldEffects;
 		};
-		F3B6B10FCF9C8770CABD90E404425741 /* PBXContainerItemProxy */ = {
+		67D86B7CD8F3687945737B37D69E84C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -49,69 +68,96 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B33C5BC2CC0C0AA8DA65B1CAA6524F /* AEOTPTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEOTPTextField-umbrella.h"; sourceTree = "<group>"; };
+		0432A261C782770389F37F7EE3409C01 /* AEOTPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextField.swift; path = AEOTPTextField/Source/UIKit/Core/AEOTPTextField.swift; sourceTree = "<group>"; };
+		06D631552B3615FE1B51827C6071630B /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		09CDD4AE28216CA7D7139590DEB20996 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
 		1365B7CD5F5CFC90B8B1809F834A075B /* Pods-FahemTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FahemTest-frameworks.sh"; sourceTree = "<group>"; };
+		13951D11DAA46973E8E62E1DF4E185A4 /* AEOTPTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEOTPTextField.debug.xcconfig; sourceTree = "<group>"; };
+		15E5BFF21726595CFE432A5D857410FA /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
 		19CC874E8D15438B65D7B275CA946334 /* Pods-FahemTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FahemTest.debug.xcconfig"; sourceTree = "<group>"; };
-		1F9C1EFFBCCD57A40F6D520D08A25197 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
-		2177D8D1891B0B4FA4FF380D1E2AA76C /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
-		22B49F8AB4D83B5C80D831D57B302E26 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
-		2483A8C66167D33CC1EFF1FCF6D66B77 /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
-		2AD4AE7CF524008D99C4E5E18C1780AA /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
-		322DA6F41BC52809B8BC518C973FF58A /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		1BAB681EC43E604171574CA8F77EF8BA /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		1DAC437ED02C009C91F7130DF7A0FC65 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		1F77B7462B46B0ECECE7169975014697 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		2CC4F15354560B45CDA8DE4557E47BC0 /* AEOTPTextFieldSwiftUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldSwiftUI.swift; path = AEOTPTextField/Source/SwiftUI/Utilities/AEOTPTextFieldSwiftUI.swift; sourceTree = "<group>"; };
+		2EA1B8744C5E6F24F680060F6525AFBA /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
+		3635F86F8A7827AF5543253B5A5A8BC4 /* AEOTPTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AEOTPTextField-Info.plist"; sourceTree = "<group>"; };
 		39BCC67B6B71424B77372FA63E37B8FD /* Pods-FahemTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FahemTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E08793242D6DB4938D17C876A91FB4A /* Pods-FahemTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FahemTest-umbrella.h"; sourceTree = "<group>"; };
-		3F2F9189845D10FBAFF1EC4B1E598ECE /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		409BB0AAF9E199AAC0557B4AD47D4D4F /* AEOTPTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldDelegate.swift; path = AEOTPTextField/Source/UIKit/Utilities/AEOTPTextFieldDelegate.swift; sourceTree = "<group>"; };
 		4CD0A63C24B46F48C57AB47A8A5F36E3 /* Pods-FahemTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FahemTest.modulemap"; sourceTree = "<group>"; };
-		69FB1439536E3FA65E68932456D4556C /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		5E1D7070C779EF41B3A8E85B6764CD19 /* SkyFloatingLabelTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.debug.xcconfig; sourceTree = "<group>"; };
+		5F2866B351C1DDBC0DCD3335970EE4DD /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		6740E4561B5F2ACA14C9729854368A6F /* AEOTPTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEOTPTextField-dummy.m"; sourceTree = "<group>"; };
+		6CB1E239B47C263B28318D3CA1238322 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		730E0BA5DDE6B8417E26F971D9CEA939 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
 		738627C6DEE8DE97CCAABEFDBABA392B /* Pods-FahemTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FahemTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		759567EDA785FBEBC041D7DF8449A195 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 		77571F4ED26FD962AA385C2FB5428CBF /* Pods-FahemTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FahemTest.release.xcconfig"; sourceTree = "<group>"; };
-		78ADB352B137011D34DD23CEBA86CCBC /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
-		79B85AB01275506208114155B60A3947 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
-		7EB903A0F6924D31F0D1EBD5D1FF3413 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
-		851D9C69BF15812DF9C9AA526D8CCCE6 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
-		854B19C7D1309AAEF8B0C2FAE061FFDE /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
-		930E15A3258C1489BEE755D28E13D400 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
-		9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		992C6416A43B72FFF791F1F6B30BD94A /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
-		99DB7317C76BE1025D9E45A22799930F /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		7D801D90F94A8F2F33AACA663A96F527 /* AEOTPView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPView.swift; path = AEOTPTextField/Source/SwiftUI/Core/AEOTPView.swift; sourceTree = "<group>"; };
+		8100A3679223EAB7950FC1AAFA4154AF /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		81D2126EF64963EDC086B8E2000A198B /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		881D26154C4A502575AB168CCB73AA16 /* AEOTPTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEOTPTextField.modulemap; sourceTree = "<group>"; };
+		88904976C7E3C97D2C3BF7E71EFE3C16 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		8A283BA7E0CCEF834A6D826C4C9E2BC6 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		8B29FE18F5C013ADD825466ED5401B97 /* AEOTPTextFieldImplementationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldImplementationProtocol.swift; path = AEOTPTextField/Source/UIKit/Utilities/AEOTPTextFieldImplementationProtocol.swift; sourceTree = "<group>"; };
+		8B6F600B04697AB739286E405B3BD73D /* AEOTPTextFieldImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldImplementation.swift; path = AEOTPTextField/Source/UIKit/Utilities/AEOTPTextFieldImplementation.swift; sourceTree = "<group>"; };
+		92E3A982975665C6F6E5CA0A9C43E540 /* TextFieldEffects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.debug.xcconfig; sourceTree = "<group>"; };
+		9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DC7EB93A31DF197B2CD9DC46AC560B /* TextFieldEffects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A17681E926E2FF286E4E481D27C2E5CF /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
-		A84E1D3C7D5C3A47BF00F0646A8B918F /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
-		A961ABF43F5B84090CD092ABA479F622 /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
-		BA9E7C297E62464DA8BA120C7518D154 /* Pods_FahemTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FahemTest.framework; path = "Pods-FahemTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD8B6CDC0B1171A57174B9A866C99E61 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		AD34F2EFB256F282D04B9865C1B3018C /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		AF68A58A2CDFCCB8748BC4DA761F4854 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		B4FA51BC98DB00267E67667C56718A2A /* ChangeObserverModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChangeObserverModifier.swift; path = AEOTPTextField/Source/SwiftUI/Utilities/ChangeObserverModifier.swift; sourceTree = "<group>"; };
+		B5F3D5D27AC67939BBBA2CB55D2AFC2E /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		B90645F3BE116D7A9F82B520073E8258 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		B93ED9F0DF1591356F1D35AE05C4747D /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
+		BA9E7C297E62464DA8BA120C7518D154 /* Pods-FahemTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FahemTest"; path = Pods_FahemTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3ADCB4305CEF8E7DDC3D7BBD1EE420 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		BF8F26BEF8D1B82ECAC9FFA6C1606107 /* View+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+Helpers.swift"; path = "AEOTPTextField/Source/SwiftUI/Utilities/View+Helpers.swift"; sourceTree = "<group>"; };
 		C069B6797CBA8C965E0A623B4BE20752 /* Pods-FahemTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FahemTest-Info.plist"; sourceTree = "<group>"; };
-		C55F397C952966DD7831995E8C8672D8 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
-		D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D938E8E1C69DDD94918FD5F5DD8F1273 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
-		F227D18BCE6AAADF76828F2005B47CFD /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		C21BA9F31A43D4C286C510A03D048C25 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		CE067DCD6EEBAB13F317E72C75C6B8F4 /* AEOTPViewRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPViewRepresentable.swift; path = AEOTPTextField/Source/SwiftUI/Core/AEOTPViewRepresentable.swift; sourceTree = "<group>"; };
+		D05AFF48CDC12930CF259DD20673DF82 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE86278456D81E15326AC6EAB4DEDAD8 /* AEOTPTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEOTPTextField-prefix.pch"; sourceTree = "<group>"; };
+		E6E3E5D7257CD3E7F1D11F7E709BDCA0 /* SkyFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
+		E9185674A7C913166AF4443BAD77C36C /* AEOTPTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEOTPTextField.release.xcconfig; sourceTree = "<group>"; };
+		E93415738A8469A1380987A9DBCB1D06 /* AEOTPTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEOTPTextField; path = AEOTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CD6850D9BC95CD48B61C8064E6BCBB /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		F82B2FA0521C7C607A49C142557DF009 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
 		FD3086566F1AE4C2224D4B146C7045B5 /* Pods-FahemTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FahemTest-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13D971DB7C58250F899E09225458EA60 /* Frameworks */ = {
+		7D22502B19E0ED15CDCD456D2D76A445 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326E51DD1E7BEF1CDFA1E6CCF8B4D133 /* Foundation.framework in Frameworks */,
+				76FC262F88C5C4ECC416CC8E98691653 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B787F0B7E249DD460EE5386ED2353444 /* Frameworks */ = {
+		A8D31459446B2D11824E45369EA9A724 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E1DAD98B2084B41C8A8C9ADA5D3FCD /* Foundation.framework in Frameworks */,
+				3E4258D4401E6044D94C9FA3BF2A1AC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA68130BBFB08AE66397E86133DCA228 /* Frameworks */ = {
+		D78F50C17532F0CAD793CBA81B263D04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E110213DFAE0A86C3A09C397C3BCD89B /* Foundation.framework in Frameworks */,
+				769B94015DB6EDAEDBE3E150F5342E48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEEE33742FB47163BAE4F8483F14BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABF5005394286424D09C497637250A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,30 +172,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		064C61B02CFF03C328EE2083E85C2AEF /* Support Files */ = {
+		0D871EC0D1C95CEA71BE363CEE2F7B2B /* SkyFloatingLabelTextField */ = {
 			isa = PBXGroup;
 			children = (
-				930E15A3258C1489BEE755D28E13D400 /* SkyFloatingLabelTextField.modulemap */,
-				99DB7317C76BE1025D9E45A22799930F /* SkyFloatingLabelTextField.xcconfig */,
-				2AD4AE7CF524008D99C4E5E18C1780AA /* SkyFloatingLabelTextField-dummy.m */,
-				A961ABF43F5B84090CD092ABA479F622 /* SkyFloatingLabelTextField-Info.plist */,
-				C55F397C952966DD7831995E8C8672D8 /* SkyFloatingLabelTextField-prefix.pch */,
-				BD8B6CDC0B1171A57174B9A866C99E61 /* SkyFloatingLabelTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SkyFloatingLabelTextField";
-			sourceTree = "<group>";
-		};
-		3965D395648DA26E6F1548C279561911 /* SkyFloatingLabelTextField */ = {
-			isa = PBXGroup;
-			children = (
-				322DA6F41BC52809B8BC518C973FF58A /* SkyFloatingLabelTextField.swift */,
-				7EB903A0F6924D31F0D1EBD5D1FF3413 /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				759567EDA785FBEBC041D7DF8449A195 /* UITextField+fixCaretPosition.swift */,
-				064C61B02CFF03C328EE2083E85C2AEF /* Support Files */,
+				81D2126EF64963EDC086B8E2000A198B /* SkyFloatingLabelTextField.swift */,
+				1BAB681EC43E604171574CA8F77EF8BA /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				6CB1E239B47C263B28318D3CA1238322 /* UITextField+fixCaretPosition.swift */,
+				831105C55514CDBC49940DCCA9522141 /* Support Files */,
 			);
 			name = SkyFloatingLabelTextField;
 			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		2721013AD8C2BAC88C8F9B4B6E6CCC05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C98C8D629862764697729E8146184EFE /* AEOTPTextField */,
+				0D871EC0D1C95CEA71BE363CEE2F7B2B /* SkyFloatingLabelTextField */,
+				6FE5A526BA78F3E854C58D9CF629F5C8 /* TextFieldEffects */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		497269E2285F92B2F6B883A6E4F7AC2B /* Pods-FahemTest */ = {
@@ -169,16 +211,6 @@
 			path = "Target Support Files/Pods-FahemTest";
 			sourceTree = "<group>";
 		};
-		52ADAC1C51EE0718675D24B524C85AC0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BA9E7C297E62464DA8BA120C7518D154 /* Pods_FahemTest.framework */,
-				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */,
-				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,37 +219,86 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6FB611DF4476700F1C13A8C2B73DD29D /* Support Files */ = {
+		6FE5A526BA78F3E854C58D9CF629F5C8 /* TextFieldEffects */ = {
 			isa = PBXGroup;
 			children = (
-				F227D18BCE6AAADF76828F2005B47CFD /* TextFieldEffects.modulemap */,
-				79B85AB01275506208114155B60A3947 /* TextFieldEffects.xcconfig */,
-				854B19C7D1309AAEF8B0C2FAE061FFDE /* TextFieldEffects-dummy.m */,
-				2483A8C66167D33CC1EFF1FCF6D66B77 /* TextFieldEffects-Info.plist */,
-				2177D8D1891B0B4FA4FF380D1E2AA76C /* TextFieldEffects-prefix.pch */,
-				78ADB352B137011D34DD23CEBA86CCBC /* TextFieldEffects-umbrella.h */,
+				8A283BA7E0CCEF834A6D826C4C9E2BC6 /* AkiraTextField.swift */,
+				1DAC437ED02C009C91F7130DF7A0FC65 /* HoshiTextField.swift */,
+				B90645F3BE116D7A9F82B520073E8258 /* IsaoTextField.swift */,
+				8100A3679223EAB7950FC1AAFA4154AF /* JiroTextField.swift */,
+				B5F3D5D27AC67939BBBA2CB55D2AFC2E /* KaedeTextField.swift */,
+				F4CD6850D9BC95CD48B61C8064E6BCBB /* MadokaTextField.swift */,
+				5F2866B351C1DDBC0DCD3335970EE4DD /* MinoruTextField.swift */,
+				AF68A58A2CDFCCB8748BC4DA761F4854 /* TextFieldEffects.swift */,
+				09CDD4AE28216CA7D7139590DEB20996 /* YokoTextField.swift */,
+				1F77B7462B46B0ECECE7169975014697 /* YoshikoTextField.swift */,
+				A981692BC30209310F5281F0AE57CB19 /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		7DED3DD5A80B998835A4B64A3835278D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				881D26154C4A502575AB168CCB73AA16 /* AEOTPTextField.modulemap */,
+				6740E4561B5F2ACA14C9729854368A6F /* AEOTPTextField-dummy.m */,
+				3635F86F8A7827AF5543253B5A5A8BC4 /* AEOTPTextField-Info.plist */,
+				DE86278456D81E15326AC6EAB4DEDAD8 /* AEOTPTextField-prefix.pch */,
+				03B33C5BC2CC0C0AA8DA65B1CAA6524F /* AEOTPTextField-umbrella.h */,
+				13951D11DAA46973E8E62E1DF4E185A4 /* AEOTPTextField.debug.xcconfig */,
+				E9185674A7C913166AF4443BAD77C36C /* AEOTPTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AEOTPTextField";
+			sourceTree = "<group>";
+		};
+		831105C55514CDBC49940DCCA9522141 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C21BA9F31A43D4C286C510A03D048C25 /* SkyFloatingLabelTextField.modulemap */,
+				BE3ADCB4305CEF8E7DDC3D7BBD1EE420 /* SkyFloatingLabelTextField-dummy.m */,
+				2EA1B8744C5E6F24F680060F6525AFBA /* SkyFloatingLabelTextField-Info.plist */,
+				88904976C7E3C97D2C3BF7E71EFE3C16 /* SkyFloatingLabelTextField-prefix.pch */,
+				D05AFF48CDC12930CF259DD20673DF82 /* SkyFloatingLabelTextField-umbrella.h */,
+				5E1D7070C779EF41B3A8E85B6764CD19 /* SkyFloatingLabelTextField.debug.xcconfig */,
+				E6E3E5D7257CD3E7F1D11F7E709BDCA0 /* SkyFloatingLabelTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		A981692BC30209310F5281F0AE57CB19 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06D631552B3615FE1B51827C6071630B /* TextFieldEffects.modulemap */,
+				F82B2FA0521C7C607A49C142557DF009 /* TextFieldEffects-dummy.m */,
+				B93ED9F0DF1591356F1D35AE05C4747D /* TextFieldEffects-Info.plist */,
+				AD34F2EFB256F282D04B9865C1B3018C /* TextFieldEffects-prefix.pch */,
+				15E5BFF21726595CFE432A5D857410FA /* TextFieldEffects-umbrella.h */,
+				92E3A982975665C6F6E5CA0A9C43E540 /* TextFieldEffects.debug.xcconfig */,
+				98DC7EB93A31DF197B2CD9DC46AC560B /* TextFieldEffects.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TextFieldEffects";
 			sourceTree = "<group>";
 		};
-		90BF725946C24A92E0AAE88274E83FCA /* TextFieldEffects */ = {
+		C98C8D629862764697729E8146184EFE /* AEOTPTextField */ = {
 			isa = PBXGroup;
 			children = (
-				D938E8E1C69DDD94918FD5F5DD8F1273 /* AkiraTextField.swift */,
-				730E0BA5DDE6B8417E26F971D9CEA939 /* HoshiTextField.swift */,
-				3F2F9189845D10FBAFF1EC4B1E598ECE /* IsaoTextField.swift */,
-				1F9C1EFFBCCD57A40F6D520D08A25197 /* JiroTextField.swift */,
-				69FB1439536E3FA65E68932456D4556C /* KaedeTextField.swift */,
-				A17681E926E2FF286E4E481D27C2E5CF /* MadokaTextField.swift */,
-				A84E1D3C7D5C3A47BF00F0646A8B918F /* MinoruTextField.swift */,
-				992C6416A43B72FFF791F1F6B30BD94A /* TextFieldEffects.swift */,
-				851D9C69BF15812DF9C9AA526D8CCCE6 /* YokoTextField.swift */,
-				22B49F8AB4D83B5C80D831D57B302E26 /* YoshikoTextField.swift */,
-				6FB611DF4476700F1C13A8C2B73DD29D /* Support Files */,
+				0432A261C782770389F37F7EE3409C01 /* AEOTPTextField.swift */,
+				409BB0AAF9E199AAC0557B4AD47D4D4F /* AEOTPTextFieldDelegate.swift */,
+				8B6F600B04697AB739286E405B3BD73D /* AEOTPTextFieldImplementation.swift */,
+				8B29FE18F5C013ADD825466ED5401B97 /* AEOTPTextFieldImplementationProtocol.swift */,
+				2CC4F15354560B45CDA8DE4557E47BC0 /* AEOTPTextFieldSwiftUI.swift */,
+				7D801D90F94A8F2F33AACA663A96F527 /* AEOTPView.swift */,
+				CE067DCD6EEBAB13F317E72C75C6B8F4 /* AEOTPViewRepresentable.swift */,
+				B4FA51BC98DB00267E67667C56718A2A /* ChangeObserverModifier.swift */,
+				BF8F26BEF8D1B82ECAC9FFA6C1606107 /* View+Helpers.swift */,
+				7DED3DD5A80B998835A4B64A3835278D /* Support Files */,
 			);
-			name = TextFieldEffects;
-			path = TextFieldEffects;
+			name = AEOTPTextField;
+			path = AEOTPTextField;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -225,8 +306,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DF8D75106F3F491EE85770E111E56814 /* Pods */,
-				52ADAC1C51EE0718675D24B524C85AC0 /* Products */,
+				2721013AD8C2BAC88C8F9B4B6E6CCC05 /* Pods */,
+				D51B495E552E27D1C71958541620F0CF /* Products */,
 				0116C9BE7E92D6812A3C7F853D099AFF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -239,73 +320,102 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF8D75106F3F491EE85770E111E56814 /* Pods */ = {
+		D51B495E552E27D1C71958541620F0CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3965D395648DA26E6F1548C279561911 /* SkyFloatingLabelTextField */,
-				90BF725946C24A92E0AAE88274E83FCA /* TextFieldEffects */,
+				E93415738A8469A1380987A9DBCB1D06 /* AEOTPTextField */,
+				BA9E7C297E62464DA8BA120C7518D154 /* Pods-FahemTest */,
+				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField */,
+				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C157353C93028E802E01175464C44D79 /* Headers */ = {
+		17C1200D487FB5EBF660C29D2FB92251 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */,
+				0C9DD5C93FCDB00E02B6AF2FD05FB067 /* AEOTPTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA0FC7C3282E0EF37FC4228106F35E06 /* Headers */ = {
+		600477C29BE42DC943F1013374A3CC1C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6560C23E0F6A5F13CE2F4C2A3774A73 /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+				4C780EDE643544353116C661CC8BFF11 /* Pods-FahemTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E983A76A139F03A76566D140ADCC2CA9 /* Headers */ = {
+		B0C96C5EDEA1256E3D515B772D897D55 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F42B721E91C3B1B77784D1C667C057 /* Pods-FahemTest-umbrella.h in Headers */,
+				EC5246CB6C26D6680D741F077F20F0DE /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83A714C737939767E487BF6FDDF6EE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874B3B9A90C1E413FDCC96C91AC63902 /* TextFieldEffects-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C58E3ACC3339A3A72C88EED9AA769F31 /* Pods-FahemTest */ = {
+		843B748963255A8FEFEA42D08A2E7996 /* AEOTPTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C8FA068CF38F061BD90291FACB83CF2 /* Build configuration list for PBXNativeTarget "Pods-FahemTest" */;
+			buildConfigurationList = 6D73FBEE8D2E402C92FF746E5D3C6516 /* Build configuration list for PBXNativeTarget "AEOTPTextField" */;
 			buildPhases = (
-				E983A76A139F03A76566D140ADCC2CA9 /* Headers */,
-				7847FC928FE7E615B82260B9CFCF4296 /* Sources */,
-				BA68130BBFB08AE66397E86133DCA228 /* Frameworks */,
-				71650F99621EE4F3BD9BDA1AA7198FD5 /* Resources */,
+				17C1200D487FB5EBF660C29D2FB92251 /* Headers */,
+				C2EE4BCA87ACF486973B946918513F7A /* Sources */,
+				A8D31459446B2D11824E45369EA9A724 /* Frameworks */,
+				E606739A64E5E3AC184B362FE0D1004D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD848219CEA935D3AE45B9BC8B007871 /* PBXTargetDependency */,
-				D7FBBD2AEDB597B36A571FCAAD0D53D0 /* PBXTargetDependency */,
+			);
+			name = AEOTPTextField;
+			productName = AEOTPTextField;
+			productReference = E93415738A8469A1380987A9DBCB1D06 /* AEOTPTextField */;
+			productType = "com.apple.product-type.framework";
+		};
+		C58E3ACC3339A3A72C88EED9AA769F31 /* Pods-FahemTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03EC67BA3B2E5A7A93BB90E95009517 /* Build configuration list for PBXNativeTarget "Pods-FahemTest" */;
+			buildPhases = (
+				600477C29BE42DC943F1013374A3CC1C /* Headers */,
+				FFBAC0CEB7F4905410358090E7FA81FD /* Sources */,
+				D78F50C17532F0CAD793CBA81B263D04 /* Frameworks */,
+				702A7E0491F75C9A6C3A04BF47FDBA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61A729B7E3220CD5D5C688AE382036DE /* PBXTargetDependency */,
+				F0257E324D07E775B5867D5E68385F67 /* PBXTargetDependency */,
+				461F32A2758F212B9281ADA652A1B0C5 /* PBXTargetDependency */,
 			);
 			name = "Pods-FahemTest";
-			productName = "Pods-FahemTest";
-			productReference = BA9E7C297E62464DA8BA120C7518D154 /* Pods_FahemTest.framework */;
+			productName = Pods_FahemTest;
+			productReference = BA9E7C297E62464DA8BA120C7518D154 /* Pods-FahemTest */;
 			productType = "com.apple.product-type.framework";
 		};
 		D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0016DD682E4DCA6A5CF2BFFFCA105AA /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildConfigurationList = FE54C32DADF76D07E96CA9655611A636 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
 			buildPhases = (
-				C157353C93028E802E01175464C44D79 /* Headers */,
-				F9E16FB1F505A7BDD4CC60D24ED7555B /* Sources */,
-				B787F0B7E249DD460EE5386ED2353444 /* Frameworks */,
-				2DA43BDC71E65F6BD504488174D8B7D5 /* Resources */,
+				E83A714C737939767E487BF6FDDF6EE7 /* Headers */,
+				144FFC383B298C7CF6FCC35EC537A19B /* Sources */,
+				7D22502B19E0ED15CDCD456D2D76A445 /* Frameworks */,
+				9AD3ECBCBA345D030077F332A593138F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -313,17 +423,17 @@
 			);
 			name = TextFieldEffects;
 			productName = TextFieldEffects;
-			productReference = 9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */;
+			productReference = 9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects */;
 			productType = "com.apple.product-type.framework";
 		};
 		DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1029B884A3473075DA6F8A22EF28C93A /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildConfigurationList = A33CF291238FED53E179F23B383C4853 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
 			buildPhases = (
-				DA0FC7C3282E0EF37FC4228106F35E06 /* Headers */,
-				D077A4710DB602E02E61C1385BA7A319 /* Sources */,
-				13D971DB7C58250F899E09225458EA60 /* Frameworks */,
-				145E33802FEE2F044BC25971B397C955 /* Resources */,
+				B0C96C5EDEA1256E3D515B772D897D55 /* Headers */,
+				404C51FACE5CFAC8FFF4FDC8C2AF9B6C /* Sources */,
+				DDEEE33742FB47163BAE4F8483F14BF2 /* Frameworks */,
+				BB72A33DD8F816B8303665F0BDA97B68 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -331,7 +441,7 @@
 			);
 			name = SkyFloatingLabelTextField;
 			productName = SkyFloatingLabelTextField;
-			productReference = D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */;
+			productReference = D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -348,14 +458,15 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 52ADAC1C51EE0718675D24B524C85AC0 /* Products */;
+			productRefGroup = D51B495E552E27D1C71958541620F0CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				843B748963255A8FEFEA42D08A2E7996 /* AEOTPTextField */,
 				C58E3ACC3339A3A72C88EED9AA769F31 /* Pods-FahemTest */,
 				DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */,
 				D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */,
@@ -364,21 +475,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		145E33802FEE2F044BC25971B397C955 /* Resources */ = {
+		702A7E0491F75C9A6C3A04BF47FDBA9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DA43BDC71E65F6BD504488174D8B7D5 /* Resources */ = {
+		9AD3ECBCBA345D030077F332A593138F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71650F99621EE4F3BD9BDA1AA7198FD5 /* Resources */ = {
+		BB72A33DD8F816B8303665F0BDA97B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E606739A64E5E3AC184B362FE0D1004D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,65 +506,89 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7847FC928FE7E615B82260B9CFCF4296 /* Sources */ = {
+		144FFC383B298C7CF6FCC35EC537A19B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3A84A42F481532C25BD8CD150C22B7 /* Pods-FahemTest-dummy.m in Sources */,
+				33E601C59F76719BF5284E739471AD16 /* AkiraTextField.swift in Sources */,
+				9735565074627CE031308408B8C86112 /* HoshiTextField.swift in Sources */,
+				313DB33B4A0AE384BDF05CA00E1F3C1B /* IsaoTextField.swift in Sources */,
+				14958A2E86F25B27E4151EAE7E8FF577 /* JiroTextField.swift in Sources */,
+				56CA8D0F87EF8ED8A716CB4F68AC575F /* KaedeTextField.swift in Sources */,
+				7B3FDEEB2A92B5308E864A17E434148C /* MadokaTextField.swift in Sources */,
+				D07C41CADECBB3C16108C338B470E889 /* MinoruTextField.swift in Sources */,
+				347952D8B8CB66F36B204DF2357A5518 /* TextFieldEffects.swift in Sources */,
+				91EEC8FACD42A2D4D6BF025F05D091FF /* TextFieldEffects-dummy.m in Sources */,
+				B373B6DE977C39AC68DC4898FA9A1579 /* YokoTextField.swift in Sources */,
+				0E83CEF0477F83DE04CE7D57D86060D6 /* YoshikoTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D077A4710DB602E02E61C1385BA7A319 /* Sources */ = {
+		404C51FACE5CFAC8FFF4FDC8C2AF9B6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B09FEC0B831B6F4E6D415077BF437A2A /* SkyFloatingLabelTextField.swift in Sources */,
-				3F382618063FE40A205947DCBF27959C /* SkyFloatingLabelTextField-dummy.m in Sources */,
-				EE63B846EDD498D4335668FFD70F3F25 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
-				10CC0DED42AC8D413BCA321D4A72C415 /* UITextField+fixCaretPosition.swift in Sources */,
+				EF188EC048AF7BB0EC67B7E36A84F36A /* SkyFloatingLabelTextField.swift in Sources */,
+				878035B27CC6F4ADFB8E5393164F0002 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				69C454BB3248AF5B39142B95250D1C6A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				E2ABE924B2D77383C50E0BAD47F1A2CE /* UITextField+fixCaretPosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9E16FB1F505A7BDD4CC60D24ED7555B /* Sources */ = {
+		C2EE4BCA87ACF486973B946918513F7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */,
-				A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */,
-				FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */,
-				86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */,
-				B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */,
-				DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */,
-				20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */,
-				38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */,
-				4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */,
-				A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */,
-				E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */,
+				E227B76CCBCD02A40F363B8858034786 /* AEOTPTextField.swift in Sources */,
+				D775D3417D9B5B61DC934A26B0BE2A11 /* AEOTPTextField-dummy.m in Sources */,
+				2D126CA6C0C88B5386439C5CE230AAC3 /* AEOTPTextFieldDelegate.swift in Sources */,
+				BA897B2A31AB27D30F0B08B1F32D4F63 /* AEOTPTextFieldImplementation.swift in Sources */,
+				BAA2592986D3F1B374EBABACC8380656 /* AEOTPTextFieldImplementationProtocol.swift in Sources */,
+				B06F7E568365D21AE6E6712469A7DDC9 /* AEOTPTextFieldSwiftUI.swift in Sources */,
+				CE6342C90C2F428090D9A20E60FCE0C9 /* AEOTPView.swift in Sources */,
+				730B39307565D753836E1A2A3E64F451 /* AEOTPViewRepresentable.swift in Sources */,
+				F2DADF5CEE8E52302CD0FED93578C969 /* ChangeObserverModifier.swift in Sources */,
+				3836734EBA12313D73A6728A263E9461 /* View+Helpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBAC0CEB7F4905410358090E7FA81FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD10180CF3885A7571FDA8E7D045069B /* Pods-FahemTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D7FBBD2AEDB597B36A571FCAAD0D53D0 /* PBXTargetDependency */ = {
+		461F32A2758F212B9281ADA652A1B0C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TextFieldEffects;
 			target = D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */;
-			targetProxy = A001837C1B7CC26C4E8510D9D398AA67 /* PBXContainerItemProxy */;
+			targetProxy = 6023B1080D8F433B486C1DA37C42E343 /* PBXContainerItemProxy */;
 		};
-		FD848219CEA935D3AE45B9BC8B007871 /* PBXTargetDependency */ = {
+		61A729B7E3220CD5D5C688AE382036DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AEOTPTextField;
+			target = 843B748963255A8FEFEA42D08A2E7996 /* AEOTPTextField */;
+			targetProxy = 07071E28A0F716BB13C587D62BE90AB3 /* PBXContainerItemProxy */;
+		};
+		F0257E324D07E775B5867D5E68385F67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SkyFloatingLabelTextField;
 			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
-			targetProxy = F3B6B10FCF9C8770CABD90E404425741 /* PBXContainerItemProxy */;
+			targetProxy = 67D86B7CD8F3687945737B37D69E84C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0545AA2E69C8C0882C8550D7ECEE8ECB /* Release */ = {
+		1C2E1DD8FC3118BBBE811F1E84DD6B7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99DB7317C76BE1025D9E45A22799930F /* SkyFloatingLabelTextField.xcconfig */;
+			baseConfigurationReference = E9185674A7C913166AF4443BAD77C36C /* AEOTPTextField.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -455,18 +597,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AEOTPTextField/AEOTPTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEOTPTextField/AEOTPTextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
+				MODULEMAP_FILE = "Target Support Files/AEOTPTextField/AEOTPTextField.modulemap";
+				PRODUCT_MODULE_NAME = AEOTPTextField;
+				PRODUCT_NAME = AEOTPTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -478,9 +620,46 @@
 			};
 			name = Release;
 		};
-		725C4B8E8D409AEE4F845458C1F271AF /* Release */ = {
+		43ACE028EAEF6D84934A9DCA15F0FBA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79B85AB01275506208114155B60A3947 /* TextFieldEffects.xcconfig */;
+			baseConfigurationReference = 19CC874E8D15438B65D7B275CA946334 /* Pods-FahemTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FahemTest/Pods-FahemTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FahemTest/Pods-FahemTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47772F8B731449B2F86D439A816C7F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DC7EB93A31DF197B2CD9DC46AC560B /* TextFieldEffects.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -513,105 +692,11 @@
 			};
 			name = Release;
 		};
-		8C7FC025747B55D46DDEDEE5F4DFD2F2 /* Release */ = {
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		A4FCA0F64387F7B8B180C8F67B07C6DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99DB7317C76BE1025D9E45A22799930F /* SkyFloatingLabelTextField.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EEF25CDFE5981495667B2EF4925DC0C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -673,7 +758,207 @@
 			};
 			name = Debug;
 		};
-		F71DFBACF48597ED31D983476E34B2D3 /* Release */ = {
+		9052E54A6156D8BFC9A0F9616595302E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E3A982975665C6F6E5CA0A9C43E540 /* TextFieldEffects.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9422C147501C92A6E686ED8C15F69AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1D7070C779EF41B3A8E85B6764CD19 /* SkyFloatingLabelTextField.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD60DA2697DB10C3EDA21E405B257195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13951D11DAA46973E8E62E1DF4E185A4 /* AEOTPTextField.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AEOTPTextField/AEOTPTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEOTPTextField/AEOTPTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AEOTPTextField/AEOTPTextField.modulemap";
+				PRODUCT_MODULE_NAME = AEOTPTextField;
+				PRODUCT_NAME = AEOTPTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E29A9A22B7AA0AADA5C18466690773E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E3E5D7257CD3E7F1D11F7E709BDCA0 /* SkyFloatingLabelTextField.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCCF83C79745C555BFC38CEEC2F66E3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 77571F4ED26FD962AA385C2FB5428CBF /* Pods-FahemTest.release.xcconfig */;
 			buildSettings = {
@@ -711,112 +996,50 @@
 			};
 			name = Release;
 		};
-		FD0E1CE5E158DA73F39EC2925BD00D0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79B85AB01275506208114155B60A3947 /* TextFieldEffects.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				PRODUCT_MODULE_NAME = TextFieldEffects;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FDE4731494BE13A316CEDDBDC4D61895 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19CC874E8D15438B65D7B275CA946334 /* Pods-FahemTest.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FahemTest/Pods-FahemTest-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FahemTest/Pods-FahemTest.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1029B884A3473075DA6F8A22EF28C93A /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4FCA0F64387F7B8B180C8F67B07C6DC /* Debug */,
-				0545AA2E69C8C0882C8550D7ECEE8ECB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EEF25CDFE5981495667B2EF4925DC0C9 /* Debug */,
-				8C7FC025747B55D46DDEDEE5F4DFD2F2 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C8FA068CF38F061BD90291FACB83CF2 /* Build configuration list for PBXNativeTarget "Pods-FahemTest" */ = {
+		6D73FBEE8D2E402C92FF746E5D3C6516 /* Build configuration list for PBXNativeTarget "AEOTPTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDE4731494BE13A316CEDDBDC4D61895 /* Debug */,
-				F71DFBACF48597ED31D983476E34B2D3 /* Release */,
+				CD60DA2697DB10C3EDA21E405B257195 /* Debug */,
+				1C2E1DD8FC3118BBBE811F1E84DD6B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0016DD682E4DCA6A5CF2BFFFCA105AA /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+		A33CF291238FED53E179F23B383C4853 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD0E1CE5E158DA73F39EC2925BD00D0B /* Debug */,
-				725C4B8E8D409AEE4F845458C1F271AF /* Release */,
+				9422C147501C92A6E686ED8C15F69AFC /* Debug */,
+				E29A9A22B7AA0AADA5C18466690773E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03EC67BA3B2E5A7A93BB90E95009517 /* Build configuration list for PBXNativeTarget "Pods-FahemTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43ACE028EAEF6D84934A9DCA15F0FBA3 /* Debug */,
+				FCCF83C79745C555BFC38CEEC2F66E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE54C32DADF76D07E96CA9655611A636 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9052E54A6156D8BFC9A0F9616595302E /* Debug */,
+				47772F8B731449B2F86D439A816C7F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
