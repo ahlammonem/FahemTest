@@ -26,6 +26,7 @@ class SignUpAsFamilyVC: UIViewController {
     @IBOutlet var checkPrivacyBtn: UIButton!
     @IBOutlet var numberOfChildrenBtn: UIButton!
     @IBOutlet var cityDropDownBtn: UIButton!
+    //cooment
     
     //MARK: Vars
     var passIconClick = true
